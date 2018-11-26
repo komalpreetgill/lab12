@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    overflow: scroll;
+    height:2000px;
+}
+.menu{
+    color:black;
+    background-color: yellow;
+    text-align: center;
+    width:2000px;
+    height:50px;
+    position:fixed;
+    opacity:0.7;
+    
+}
+.big-box{
+    background-color: blue;
+    height:500px;
+    width: 500px;
+    margin-left: 700px;
+    margin-top:100px;
+    position:absolute;
+    z-index: -2;
+    
+}
+.small-box{
+    background-color: red;
+    height:300px;
+    width:300px;
+    margin-left:800px;
+    margin-top:200px;
+    position:absolute;
+    color: white;
+    z-index: -2;
+}
+a{
+    position:relative;
+    margin-top: 300px;
+    margin-left:100px;
+    padding-top:500px;
+    padding-bottom:500px;
+    line-height: 100px;
+
+}
